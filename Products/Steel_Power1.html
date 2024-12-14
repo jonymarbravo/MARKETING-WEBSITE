@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STEEL POWER BARBELL</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Roboto flex', sans-serif;
+}
+
+.main_container {
+    height: 100vh;
+    margin: 0 auto;
+    padding: 40px 40px;
+}
+
+.back_btn {
+        margin-bottom: 10px;
+        width: 15%;
+
+        button {
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(17, 15, 11);
+        box-shadow: 0 0 15px #000000;
+        padding: 20px;
+        color: white;
+        width: 100%;
+        font-size: 0.9rem;
+        font-weight: bold;
+        letter-spacing: 5px;
+        }
+
+        button:hover {
+        background-color: rgb(247, 161, 3);
+        font-weight: bolder;
+        font-size: 1rem;
+    }
+}
+
+.body_container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.product_img {
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+    border: 3px solid black;
+    border-radius: 10px;
+    height: 700px;
+
+    h2 {
+        position: absolute;
+        z-index: 1;
+        left: 20px;
+        bottom: 85px;
+        border: none;
+        border-radius: 5px;
+        background-color: #000000a6;
+        padding: 10px;
+        color: #ffffff;
+        object-fit: cover;
+        font-size: 1.2rem;
+    }
+}
+
+.img_slogan {
+    width: 97%;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    z-index: 1;
+    border: none;
+    color: #000000;
+    padding: 10px;
+    background-color: #ffffff8f;
+    margin: 50px 10px 5px 10px;
+    font-size: 0.9rem;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.img_info {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0 20px 10px;
+
+    button {
+    border: none;
+    border-radius: 5px;
+    background-color: #2d9703;
+    color: white;
+    padding: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 15%;
+    }
+
+    button:hover {
+        background-color: #49e70b;
+        cursor: pointer;
+        font-size: 1.3rem;
+    }
+}
+.price {
+    font-weight: bold;
+    font-size: 2rem;
+}
+.order_btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px 0 40px 0;
+    width: 20%;
+
+    
+    button {
+       width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.screenshot_img {
+    border: 1px solid #0000009c;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: rgba(180, 243, 243, 0.918);
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 1138px) {
+    
+    .product_img {
+
+    h2 {
+        background-color: none;
+        font-size: 1rem;
+        bottom: 90px;
+        padding: 10px;
+    }
+    
+}
+
+    .img_slogan {
+        margin: 0;
+        
+    }
+}
+
+@media screen and (max-width: 892px) {
+    .product_img {
+
+        h2 {
+            margin: 0;
+            bottom: 80px;
+        }
+    }
+    .img_slogan {
+        font-size: 0.8rem;
+    }
+    .price {
+        font-size: 1.8rem;
+    }
+    .order_btn {
+        width: 100%;
+
+        button {
+            width: 30%;
+            padding: 15px;
+        }
+    }
+}
+
+@media screen and (max-width: 796px) {
+    .back_btn {
+        width: 25%;
+
+        button {
+            padding: 15px;
+            font-size: 0.8rem;
+        }
+        button:hover {
+            font-size: 0.8rem;
+        }
+    }
+    .product_img {
+
+        h2 {
+           background-color: #00000000;
+           left: 10px;
+           bottom: 70px;
+        }
+    }
+    .img_slogan {
+        background-color: #00000059;
+        color: #ffffff;
+        font-size: 0.7rem;
+    }
+    .screenshot_img {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 634px) {
+    .product_img {
+
+        h2 {
+            bottom: 50px;
+        }
+    }
+    .img_slogan {
+        font-size: 0.5rem;
+        left: 0;
+        margin:0  5px;
+        padding: 5px;
+        background-color: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .main_container {
+        padding: 30px 20px;
+    }
+    .body_container {
+        margin: 0;
+        padding: 0;
+    }
+    .product_img {
+        margin: 0;
+       
+        h2 {
+            left: 0;
+        }
+    }
+    .price {
+        font-size: 1.2rem;
+    }
+    .order_btn {
+       
+        button {
+            padding: 10px;
+            font-size: 0.9rem;
+            width: 40%;
+        }
+    }
+    .screenshot_img {
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width: 404px) {
+    .back_btn {
+        width: 40%;
+
+        button {
+            width: 100%;
+            padding: 15px;
+            font-size: 0.6rem;
+        }
+    }
+    .product_img {
+        h2 {
+            bottom: 70px;
+        }
+    }
+}
+
+</style>
+
+</head>
+<body>
+    
+    <div class="main_container">
+
+        <div class="back_btn">
+        <button onclick="window.location.href='../Products/See_All_Products.html'">BACK</button>
+    </div>
+
+        <div class="body_container">
+
+            <div class="product_img">
+            <img class="img" src="../Product_Images/Steel Power.jpg" alt="">
+            <h2>Steel Power Barbell</h2>
+
+            <div class="img_slogan">
+                Boost your lifts with the <strong>Weightlifting Belt</strong> – designed to enhance stability, protect your lower back, and maximize performance during heavy lifts. Built for durability and comfort, it's a must-have for serious lifters. Lift heavier, safer, and stronger today!
+            </div>
+        </div>
+        
+
+        <div class="img_info">
+            
+            <span class="price"> ₱8,999.00</span>
+
+            <div class="order_btn">
+                <button onclick="window.open('https://web.facebook.com/jonymar.barrete.1', '_blank')">Purchase</button>                
+        </div>
+
+        <span class="screenshot_img">If you want to order this product of ours. <strong>Just take a screenshot of this image and click Purchase button to contact and send it personally to our original seller</strong> of this company.</span>
+
+        </div>
+
+        
+
+        </div>
+    </div>
+
+</body>
+</html>

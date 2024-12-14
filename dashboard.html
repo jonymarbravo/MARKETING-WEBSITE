@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM HUB</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dashboard.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo"><img src="Images/GYMHUB.svg" alt="Logo that says GYM HUB"></a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item"><a href="#home" class="navbar__links" id="home-page">Home</a></li>
+                <li class="navbar__item"><a href="#about" class="navbar__links" id="about-page">About Us</a></li>
+                <li class="navbar__item"><a href="#products" class="navbar__links" id="product-page">Products</a></li>
+                <li class="nav_contact">
+                    <a href="#contact" class="navbar__link" id="contacts">Contacts</a></li>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="hero" id="home">
+        <div class="hero_container">
+            <div class="logo_transitioning">
+                <hr> <img class="img_trans" src="Images/Strength.svg" alt="Strength Logo">
+                </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="main" id="about">
+        <div class="video_container">
+            <video autoplay muted loop class="video_bg">
+                <source src="Images/AU_Pic.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <img class="logo_trans" src="Images/GYMHUB.svg" alt="">
+        </div>
+
+        <div class="AUside_container">
+            <h4>ABOUT US</h4>
+            <div class="slogan_container">
+                <p>"At GYM HUB, we believe that achieving fitness goals starts with having the right tools. That’s why we specialize in providing top-tier gym equipment, built for durability, performance, and style. From barbells and weights to essential workout accessories, each product is carefully designed to help you elevate your workout experience, whether you're a seasoned athlete or just beginning your fitness journey. With our commitment to quality, you can trust that every piece of equipment you find here meets the highest standards, ensuring both safety and satisfaction."
+                  <br><br>
+                  "Join the GYM HUB community and take your workouts to the next level. We’re not just selling products; we’re fueling ambitions and helping you unlock your full potential. Discover gear that not only supports your fitness goals but also inspires you to push further and reach new heights. With GYM HUB by your side, you’re one step closer to your best self. Let's get stronger together!"
+                  </p>
+            </div>
+
+            <button class="RMAU_btn" onclick="window.location.href='Products/RMAU.html'">Read More About Us</button>
+
+            <!-- Custom Accordion -->
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-button"><strong>What types of gym equipment do you offer?</strong></button>
+                    <div class="accordion-content">
+                        <p>GYM HUB specializes in a wide range of gym equipment, including barbells, weights, resistance bands, and essential workout accessories designed for both home and commercial use.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-button"><strong>How does GYM HUB ensure product quality?</strong></button>
+                    <div class="accordion-content">
+                        <p>We are committed to providing top-tier gym equipment that meets rigorous safety and performance standards, ensuring that every product you purchase is durable and reliable.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-button"><strong>Can beginners find suitable equipment at GYM HUB?</strong></button>
+                    <div class="accordion-content">
+                        <p>Absolutely! We cater to everyone from seasoned athletes to beginners, offering equipment and accessories that are perfect for all fitness levels to help you start your journey effectively.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-button"><strong>Who is the goddamn developer of this website?</strong></button>
+                    <div class="accordion-content">
+                        <p>The website developer who made this shit up is a handsome man named Jony Mar Barrete, a college student who seeks self-improvement and innovation. But actually, he was just bored that is why he made this worthless shit.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+     <!--Product Section-->
+     <div class="Product_container" id="products">
+        <div class="products_content">
+
+            <div class="products_itemCon">
+
+                <div class="product_one">
+                        <img src="Images/Adjustable Kettlebell.jpg" alt="Gym Equipment">
+                        <div class="productOne_below">
+                            <span>Adjustable Kettlebell</span>
+                            <button onclick="window.location.href='Products/Adjustable.html'">TAKE A LOOK NOW!</button>
+                        </div>
+                </div>
+
+                <div class="productside_container">
+                    
+                    <div class="products_box">
+                        <img src="Images/Heavy Dumb Bell Sets.jpg" alt="Equipment">
+                        <div class="productside_below">
+                            <span>Dumb Bell Set</span>
+                            <button onclick="window.location.href='Products/DumBell.html'">TAKE A LOOK NOW!</button>
+                        </div>
+                    </div>
+
+                    <div class="products_box">
+                        <img src="Images/Foam Roller for Muscle Recovery.jpg" alt="Equipment">
+                        <div class="productside_below">
+                            <span>Foam Roller</span>
+                            <button onclick="window.location.href='Products/FoamRoller.html'">TAKE A LOOK NOW!</button>
+                        </div>
+                    </div>
+
+                    <div class="products_box">
+                        <img src="Images/Premium Yoga Mat.jpg" alt="Equipment">
+                        <div class="productside_below">
+                            <span>Yoga Mat</span>
+                            <button onclick="window.location.href='Products/YogaMat.html'">TAKE A LOOK NOW!</button>
+                        </div>
+                    </div>
+
+                    <div class="products_box">
+                        <img src="Images/Weightlifting Belt.jpeg" alt="Equipment">
+                        <div class="productside_below">
+                            <span>Weightlifting Belt</span>
+                            <button onclick="window.location.href='Products/Weightlifting_Belt.html'">TAKE A LOOK NOW!</button>
+                        </div>
+                    </div>
+
+                    <div class="products_box">
+                        <img src="Images/Steel Power Barbell.webp" alt="Equipment">
+                        <div class="productside_below">
+                            <span>Steel Power Barbell</span>
+                            <button onclick="window.location.href='Products/Steel_Power.html'">TAKE A LOOK NOW!</button>
+                        </div>
+                    </div>
+
+                    <div class="products_box">
+                        <img src="Images/Multi-Grip Pull-Up Bar.jpg" alt="Equipment">
+                        <div class="productside_below">
+                            <span>Pull-Up Bar</span>
+                            <button onclick="window.location.href='Products/Multi_Grip.html'">TAKE A LOOK NOW!</button>
+                        </div>
+                    </div>
+
+                    <div class="btn">
+                        <button class="SAP_btn" onclick="window.location.href='Products/See_All_Products.html'">See All Products</button>
+                        </div>
+                </div>
+
+            </div>
+
+            <div class="product_slogan">
+                <h1>OUR PRODUCTS</h1>
+                <p>"At GYM HUB, we are committed to providing only the highest-quality gym equipment and accessories to help you achieve your fitness goals. Our range includes everything from durable barbells and weights to versatile resistance bands and workout essentials, each crafted with precision to ensure safety, performance, and durability. 
+                    Whether you're a beginner just starting your fitness journey or a seasoned athlete pushing new limits, our products are designed to elevate your experience, offering you reliability and effectiveness in every workout.
+                    <br><br>
+                    We invite you to explore our collection and experience the difference that quality equipment can make. With GYM HUB, you’re not just purchasing gear – you’re investing in a lifestyle that prioritizes strength, resilience, and dedication. 
+                    Take your workouts to the next level with products that are built to inspire and support your journey. Let us help you unlock your full potential with equipment that’s as committed to your success as you are!"</p>
+            </div>
+
+        </div>
+
+     </div>
+
+
+     <!--Contact Section-->
+     <div class="contact_container" id="contact">
+        <div class="contact_content">
+
+            <div class="contacts_boxOne">
+        <div class="contact_txts">
+            <h1>Contact Us:</h1>
+            <p>We’re here to help! For any questions or inquiries,
+                feel free to reach out to us through the
+                following contact details:</p>
+        </div>
+
+        <div class="numbers_content">
+            <span> Company’s Telephone Number:</span>
+            <div class="with_FA">
+                <i class="fa-solid fa-phone"></i><span> (123) 456-7890 or (987) 654-3210</span>
+            </div>
+        
+            <span>Owner’s Personal Number:</span>
+            <div class="with_FA">
+                <i class="fa-solid fa-phone"></i><span> 09914369538 or 09077687294</span>
+            </div>
+
+            <span>Email:</span>
+            <div class="with_FA">
+                <i class="fa-solid fa-envelope"></i><span> jonymarbarrete88@gmail.com</span>
+            </div>
+
+            <span class="contact_txtBelow">"Our team is here to assist you from 8:00 AM to 5:00 PM,
+                Monday through Friday. Please feel free to reach out during
+                these hours via our contact information provided below.
+                We look forward to connecting with you!"</span>
+        </div>
+    </div>
+
+    <div class="contact_secondSec">
+    <div class="contacts_boxTwo">
+
+        <div class="address_slogan">
+            <h3 class="gym_addr">GYM's ADDRESS:</h3>
+            <div class="location_map">
+                <i class="fa-solid fa-location-dot"></i>
+                <a href="https://maps.app.goo.gl/crWZkLDWsoSqstGN7" target="_blank">
+                    <span>Palmera Street, Brgy. Sto Niño, Tugbok Dist., Davao City</span>
+                </a>
+            </div>
+            
+            <span class="click_addr">Click the address to see the map.</span>
+
+            
+        <p>Our gym is open Monday through Friday, from
+            8 AM to 6 PM. Feel free to stop by during these
+            hours to make the most of our facilities and
+            services! You can also reach us through social
+            media, including Facebook and Instagram,
+            for more updates or inquiries.</p>
+        </div>
+
+    </div>
+
+    <div class="facebook_insta">
+        <div class="facebook_container">
+            <i class="fa-brands fa-facebook"></i>
+            <button onclick="window.open('https://web.facebook.com/jonymar.barrete.1', '_blank')">CLICK HERE!</button>
+        </div>
+
+        <div class="insta_container">
+            <i class="fa-brands fa-instagram"></i>
+            <button onclick="window.open('https://www.instagram.com/barrzzz69/', '_blank')">CLICK HERE!</button>
+        </div>
+    </div>
+    
+</div>
+
+    </div>
+     </div>
+
+
+      <!-- Footer Section -->
+    <div class="footer__container" id="footer">
+        <div class="footer__links">
+          <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+              <h2>About Us</h2>
+              <a href="/Footer_Section/Fuck.html">How it works</a> 
+              <a href="/Footer_Section/Fuck.html">Testimonials</a>
+              <a href="/Footer_Section/Fuck.html">Careers</a> 
+              <a href="/Footer_Section/Fuck.html">Terms of Service</a>
+            </div>
+            <div class="footer__link--items">
+              <h2>Contact Us</h2>
+              <a href="/Footer_Section/Fuck.html">Contact</a> 
+              <a href="/Footer_Section/Fuck.html">Support</a>
+              <a href="/Footer_Section/Fuck.html">Destinations</a>
+            </div>
+          </div>
+          <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+              <h2>Videos</h2>
+              <a href="/Footer_Section/Fuck.html">Submit Video</a> 
+              <a href="/Footer_Section/Fuck.html">Ambassadors</a>
+              <a href="/Footer_Section/Fuck.html">Agency</a>
+            </div>
+            <div class="footer__link--items">
+              <h2>Social Media</h2>
+              <a href="/">Instagram</a> <a href="/">Facebook</a>
+              <a href="/">Youtube</a> <a href="/">Twitter</a>
+            </div>
+          </div>
+        </div>
+        <section class="social__media">
+          <div class="social__media--wrap">
+            <div class="footer__logo">
+              <a href="/" id="footer__logo">GYM HUB</a>
+            </div>
+            <p class="website__rights">© GYMHUB 2020. For Entertainment Purposes Only</p>
+            <div class="social__icons">
+              <a href="/" class="social__icon--link" target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="/" class="social__icon--link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="/" class="social__icon--link"
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a href="/" class="social__icon--link"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="/" class="social__icon--link"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </div>
+          </div>
+
+
+    <script src="dashboard.js"></script>
+</body>
+</html>

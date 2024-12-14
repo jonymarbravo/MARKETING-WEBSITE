@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read More About Us</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto flex', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.head_container {
+    min-height: 100vh;
+    padding: 100px 60px;
+    background: linear-gradient(to right, #fffbfb 20%, #000000 80%);
+    
+}
+
+.back_btn {
+    width: 15%;
+
+    button {
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(17, 15, 11);
+        color: white;
+        padding: 20px;
+        font-size: 1.1rem;
+        font-weight: bold;
+        letter-spacing: 5px;
+        box-shadow: 0 0 15px #000000;
+        margin-bottom: 40px;
+        width: 100%;
+    }
+
+    button:hover {
+        background-color: rgb(247, 161, 3);
+        font-weight: bolder;
+        font-size: 1.2rem;
+    }
+}
+
+.johnny_container {
+    
+    scroll-behavior: smooth;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.johnny_iden {
+    border: 1px solid #000000;
+    box-shadow: 0 0 15px #000000;
+    height: 450px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff;
+}
+
+.johnny_head {
+    border: 2px solid #000000;
+    border-radius: 5px;
+    height: 400px;
+    padding: 40px;
+    background-color: #131111;
+
+    img {
+        width: 250px;
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        font-size: 1rem;
+        color: #ffffff;
+    }
+
+    span {
+        font-size: 0.9rem;
+        color: #ffffff;
+    }
+}
+
+hr {
+    background-color: black;
+    width: 15px;
+    height: 400px;
+    margin-right: 20px;
+}
+
+.Whole_info {
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #020202a2;
+    padding: 40px;
+    box-shadow: 0 0 15px #fcfcfc;
+
+    p {
+        text-align: left;
+        color: #ffffff;
+    }
+}
+
+
+@media screen and (max-width: 1170px) {
+    .head_container {
+        padding: 70px 40px;
+    }
+    .Whole_info {
+        padding: 30px;
+
+        p {
+            font-size: 0.8rem;
+        }
+    }
+}
+@media screen and (max-width: 1024px) {
+    .head_container {
+        padding: 30px 40px;
+    }
+
+    .back_btn {
+        margin-bottom: 10px;
+
+        button {
+            font-size: 0.9rem;
+        }
+
+        button:hover {
+            font-size: 1rem;
+        }
+    }
+
+    .johnny_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    hr {
+        border: none;               /* Removes default styling */
+      background-color: black;    /* Sets the color of the line */
+      height: 3px;
+      background: linear-gradient(to right, #000000, #ffffff 100%);                /* Sets the thickness of the line */
+      width: 80%;                 /* Adjusts the width of the line */
+      margin: 20px auto; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 15px;
+    }
+
+
+    .johnny_iden {
+        height: 380px;
+        padding: 20px;
+        margin: 0;
+    }
+    .johnny_head {
+        height: 340px;
+
+        img {
+            width: 200px;
+        }
+    }
+    .Whole_info {
+        padding: 20px;
+
+        p {
+            font-size: 0.8rem;
+        }
+    }
+
+}
+
+@media screen and (max-width: 870px) {
+    .back_btn {
+
+        button {
+            font-size: 0.8rem;
+        }
+        button:hover {
+            font-size: 0.8rem;
+        }
+    }
+    .johnny_iden {
+        height: 340px;
+    }
+    .johnny_head {
+        height: 300px;
+        padding: 40px;
+
+        img {
+            width: 170px;
+        }
+        h2 {
+            font-size: 0.8rem;
+        }
+        span {
+            font-size: 0.6rem;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .head_container {
+        padding: 30px 20px;
+    }
+    .back_btn {
+        width: 20%;
+
+        button {
+            font-size: 0.8rem;
+            padding: 15px;
+        }
+    }
+    .Whole_info {
+        padding: 15px;
+        
+        p {
+            font-size: 0.7rem;
+        }
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .Whole_info {
+
+        p {
+            font-size: 0.6rem;
+        }
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .back_btn {
+       width: 30%;
+
+        button {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+
+    </style>
+</head>
+
+<body>
+
+    <div class="head_container">
+
+        <div class="back_btn">
+        <button onclick="window.location.href='../dashboard.html#about'">BACK</button>
+    </div>
+
+        <div class="johnny_container">
+
+            <div class="johnny_iden">
+                <div class="johnny_head">
+            <img src="../Images/JohnnySins.svg" alt="">
+          
+                <h2>BARRETE, JONY MAR  S.</h2>
+                <span>Company Owner</span>
+            </div>
+                </div>
+<hr>
+
+            <div class="Whole_info">
+                <p>
+                    Welcome to <strong>GYM HUB</strong>, where passion, innovation, and excellence meet to redefine the way you approach fitness. Founded on <strong>March 1, 2023</strong>, by <strong>Jonymar Barrete</strong>, GYM HUB is the manifestation of a dream to provide athletes, fitness enthusiasts, and anyone determined to build a healthier lifestyle with the very best in gym equipment. Jonymar, a fitness industry expert with a vision, poured his years of knowledge and commitment to quality into creating a brand that delivers more than just equipment — it delivers the tools for transformation. <br>
+                    <br>
+                    At <strong>GYM HUB</strong>, we understand that the journey to personal strength and well-being requires dedication, consistency, and the right support. This is why our equipment, from precision-engineered barbells to other essential gym tools, is designed to help you not only reach your fitness goals but exceed them. Every piece of equipment we offer is crafted with durability, performance, and innovation in mind, ensuring that it can withstand the toughest workouts while empowering you to push your limit  <br>
+                    <br>
+                    We know that fitness is not just about physical strength; it's about the mental and emotional resilience built along the way. Whether you're a beginner embarking on your fitness journey or a seasoned athlete striving for new achievements, <b>GYM HUB</b> is here to support every step of your progress. Our products are designed with your success in mind — to give you the confidence, motivation, and tools you need to perform at your highest potential. <br>
+                    <br>
+                    What sets us apart is our commitment to quality. Every product we offer undergoes rigorous testing to ensure that it meets the highest industry standards, giving you the peace of mind that you're investing in equipment that will last and help you achieve your best. At <b>"GYM HUB"</b>, we don't just sell gym equipment; we believe in inspiring and empowering you to live a healthier, stronger, and more fulfilling life. <br>
+                    <br>
+                    By choosing <strong>GYM HUB</strong>, you're not just making a purchase — you're making an investment in your future. You're choosing a lifestyle of health, strength, and excellence. Join us today, and let's make every rep, every set, and every workout count. Together, we'll elevate your fitness journey to new heights.</p>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
